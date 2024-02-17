@@ -1,4 +1,4 @@
-function Stack() {
+function StackFunction() {
   // push : 스택 꼭대기에 새 원소를 추가한다.
   // pop : 스택 꼭대기의 원소를 제거한다.
   // peek : 스택 꼭대기의 원소를 반환한다.
@@ -31,3 +31,5 @@ function Stack() {
     return this.items.length;
   };
 }
+
+export default StackFunction;
